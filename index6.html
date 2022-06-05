@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form name="search" action="#" method="post" style="padding: 200px;">
+    <div style="margin-bottom: 40px; max-width: 392px;">
+        <label for="first_name" style="display: none;">ИМЯ</label>
+        <input style="width: 100%; height: 24px; padding-bottom: 5px; border: none; border-bottom: 1px solid black" type="text" name="First_name" id="first_name">
+    </div>
+    <div style="margin-bottom: 40px; max-width: 392px;">
+        <label>
+            <input type="checkbox" name="i_agree" checked>
+            I agree about privacy ............
+        </label>
+    </div>
+    <div style="margin-bottom: 20px; max-width: 392px;">
+        <h3>GENDER</h3>
+        <label>
+            <input type="radio" name="gender" value="man">
+            MAN
+        </label>
+        <label>
+            <input type="radio" name="gender" value="woman">
+            WOMAN
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">
+            Other
+        </label>
+    </div>
+    <div style="margin-bottom: 20px; max-width: 392px;">
+        <label for="comment" style="display: none;"></label>
+        <textarea  style="width: 100%; resize: none; height: 24px; padding-bottom: 5px;" id="comment" name="comment" ></textarea>
+    </div>
+    <div style="margin-bottom: 20px; max-width: 392px;">
+        <label for="select" style="display: none;"></label>
+        <select id="select" style="width: 100%;">
+            <option>Kiev</option>
+            <option selected>Kharkiv</option>
+            <option>Dnepr</option>
+        </select>
+    </div>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
