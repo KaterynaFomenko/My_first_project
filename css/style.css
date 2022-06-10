@@ -83,6 +83,7 @@ header nav li a:hover {
     color: #FFFFFF;
     max-width: 920px;
     margin: auto;
+    margin-bottom: 50px;
 
 }
 .video_list{
@@ -122,4 +123,7 @@ header nav li a:hover {
     position: absolute;
     top: 88px;
     left: 96px;
+}
+.vid{
+    position: relative;
 }
