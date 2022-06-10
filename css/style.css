@@ -70,9 +70,8 @@ header nav li a:hover {
     background-color: #4C6071;
     background-image: url('../img/MaskGroup.png');
     background-size: cover;
-    height: 100vh;
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 .new_one h3{
@@ -82,14 +81,15 @@ header nav li a:hover {
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-    margin-left: 260px;
+    max-width: 920px;
+    margin: auto;
 
 }
 .video_list{
     display: flex;
     justify-content: space-between;
-    padding: 178px 50px;
-    align-items: center;
+    max-width: 1113px;
+    margin: auto;
     position: relative;
 
 }
@@ -112,23 +112,14 @@ header nav li a:hover {
     color: #FFFFFF;
     max-width: 253px;
 }
-.vid_1 a img{
-    position: absolute;
-    left: 150px;
-    top: 260px;
+
+.video_list image {
+    position: relative;
+    display: block;
+    width: 100%;
 }
-.vid_2 a img{
+.video_list  a {
     position: absolute;
-    left: 480px;
-    top: 260px;
-}
-.vid_3 a img {
-    position: absolute;
-    left: 840px;
-    top: 260px;
-}
-.vid_4 a img {
-    position: absolute;
-    left: 1240px;
-    top: 260px;
+    top: 88px;
+    left: 96px;
 }
