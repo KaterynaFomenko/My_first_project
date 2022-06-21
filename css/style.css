@@ -73,6 +73,12 @@ header nav li a:hover {
     padding-top: 100px;
     padding-bottom: 100px;
 
+
+}
+.arrow{
+    display: flex;
+    
+    
 }
 .new_one h3{
     font-family: 'Gothic A1', sans-serif;
@@ -86,6 +92,15 @@ header nav li a:hover {
     margin-bottom: 50px;
 
 }
+/*.new_arrow{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin: auto;*/
+/*}*/
+/*.arrow{*/
+/*    padding-right: 300px*/;
+/*    margin-left: 400px;*/
+/*}*/
 .video_list{
     display: flex;
     justify-content: space-between;
@@ -125,7 +140,10 @@ header nav li a:hover {
     left: 96px;
 }
 .vid{
-    position: relative;
+    
+    display: inline-block;
+    text-align: left;
+
 }
 .owl-item{
     text-align: center;
@@ -138,46 +156,23 @@ header nav li a:hover {
 }
 
 .owl-nav{
-
-}
-.owl-nav{
     display: inline-block;
     justify-content: space-between;
 
     width: 100%;
-
 }
-/*
-.carousel{
-    background-color: #FFFFFF;
-    padding-bottom: 177px;
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+    
 }
-.carousel img{
-    width: 100%;
-    display: block;
-    margin-bottom: 100px;
+.owl-nav .owl-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: #FFFFFF;
+    font-size: 30px;
 }
-.carousel .container{
-    max-width: 1113px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between
-
-}
-.carousel h1{
-    font-family: 'Gothic A1',sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-}
-.carousel .item1 img{
-    display: block;
-    width: 100%;
-
-}
-.carousel .item2 img {
-    display: block;
-    width: 100%;
-}
-.carousel h4{
-
-}*/
