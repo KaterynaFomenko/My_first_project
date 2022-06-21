@@ -127,3 +127,54 @@ header nav li a:hover {
 .vid{
     position: relative;
 }
+.owl-item{
+    text-align: center;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+}
+/*
+.carousel{
+    background-color: #FFFFFF;
+    padding-bottom: 177px;
+}
+.carousel img{
+    width: 100%;
+    display: block;
+    margin-bottom: 100px;
+}
+.carousel .container{
+    max-width: 1113px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between
+
+}
+.carousel h1{
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.carousel .item1 img{
+    display: block;
+    width: 100%;
+
+}
+.carousel .item2 img {
+    display: block;
+    width: 100%;
+}
+.carousel h4{
+
+}*/
