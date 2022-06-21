@@ -138,7 +138,10 @@ header nav li a:hover {
 }
 
 .owl-nav{
-    display: flex;
+
+}
+.owl-nav{
+    display: inline-block;
     justify-content: space-between;
 
     width: 100%;
