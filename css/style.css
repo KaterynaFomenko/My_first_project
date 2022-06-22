@@ -158,7 +158,9 @@ header nav li a:hover {
 .owl-nav{
     display: inline-block;
     justify-content: space-between;
-
+    position: absolute;
+    top:-85px;
+    left: 1170px;
     width: 100%;
 }
 .owl-nav .owl-prev:before{
