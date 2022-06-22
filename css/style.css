@@ -92,15 +92,7 @@ header nav li a:hover {
     margin-bottom: 50px;
 
 }
-/*.new_arrow{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    margin: auto;*/
-/*}*/
-/*.arrow{*/
-/*    padding-right: 300px*/;
-/*    margin-left: 400px;*/
-/*}*/
+
 .video_list{
     display: flex;
     justify-content: space-between;
@@ -160,7 +152,7 @@ header nav li a:hover {
     justify-content: space-between;
     position: absolute;
     top:-85px;
-    left: 1170px;
+    left: 950px;
     width: 100%;
 }
 .owl-nav .owl-prev:before{
