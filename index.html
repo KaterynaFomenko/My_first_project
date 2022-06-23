@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible"  content="ie=edge">
     <title>Document</title>
 
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -60,12 +61,12 @@ border-radius: 20px;justify-content: center;padding-bottom: 40px;display: flex">
             <p style="max-width: 374px; font-size: 20px; display: flex;text-align: left;margin: auto">Наши клиенты получают скидку 10% на материалы
             </p>
         </article>
-       <div style="padding-top: 40px;padding-bottom: 40px">
-        <a href="#" style="text-decoration: none; justify-content: center;align-items: center;padding: 20px 49px;
+        <div style="padding-top: 40px;padding-bottom: 40px">
+            <a href="#" style="text-decoration: none; justify-content: center;align-items: center;padding: 20px 49px;
 gap: 10px;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
 box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05); border-radius: 10px; flex: none;color: #FFFFFF;;
 ">Заказать проект</a>
-       </div>
+        </div>
     </div>
 </section>
 
@@ -158,17 +159,17 @@ box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px; flex: none;co
 </section>
 <section class="new_one">
 
-<div class="new_arrow">
-<h3>Видеоотзывы</h3>
+    <div class="new_arrow">
+        <h3>Видеоотзывы</h3>
 
-</div>
+    </div>
     <div class="video_list owl-carousel">
-<div class="vid">
-<img class="image" src="img/icon_1.svg" alt=""/>
-<a href="#" class="owl"> <img src='img/Vector.svg' alt=""/></a>
-    <h4>Влажность и мебель</h4>
-    <p>Мармушка обычно используется для вылова  в северных морях </p>
-</div>
+        <div class="vid">
+            <img class="image" src="img/icon_1.svg" alt=""/>
+            <a href="#" class="owl"> <img src='img/Vector.svg' alt=""/></a>
+            <h4>Влажность и мебель</h4>
+            <p>Мармушка обычно используется для вылова  в северных морях </p>
+        </div>
         <div class="vid">
             <img class="image" src="img/icon_2.svg" alt=""/>
             <a href="#" class="owl"> <img src='img/Vector.svg' alt=""/></a>
@@ -204,14 +205,93 @@ box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px; flex: none;co
             <h4>Влажность и мебель</h4>
             <p>Мармушка обычно используется для вылова  в северных морях</p>
         </div>
-</div>
+    </div>
 </section>
 
+
+<section class="planned_cost">
+    <div class="container">
+        <div class="bgc_white">
+            <h3>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h3>
+        </div>
+        <div class="container_2" id="accordion">
+            <h3 class="d-flex">
+                <span>Какая услуга Вас интересует?</span>
+                <span>Вопрос 1 из 5</span>
+            </h3>
+            <div class="bgc_white">
+            <div class="flex bgc_1">
+
+
+                <div class="form_service">
+                    <form action="#" method="get" name="questions">
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка
+                                <input type="radio" name="service" value="plaster"></label>
+                        </div>
+                        <div class="bgc_form_white">
+                            <label>Покраска
+                                <input type="radio" name="service" value="wall_painting"></label></div>
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка + покраска
+                                <input type="radio" checked name="service" value="plaster_and_wall_painting"></label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="layout">
+                    <img src="img/layout.svg" alt="layout">
+                    <div class="flex">
+                        <a href="#">Назад</a>
+                        <button class="button_style" type="submit">Далее</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <h3 class="d-flex">
+                <span>Какая услуга Вас интересует?</span>
+                <span>Вопрос 1 из 5</span>
+            </h3>
+           <div class="bgc_white">
+            <div class="flex bgc_1">
+
+
+                <div class="form_service">
+                    <form action="#" method="get" name="questions">
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка
+                                <input type="radio" name="service" value="plaster"></label>
+                        </div>
+                        <div class="bgc_form_white">
+                            <label>Покраска
+                                <input type="radio" name="service" value="wall_painting"></label></div>
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка + покраска
+                                <input type="radio" checked name="service" value="plaster_and_wall_painting"></label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="layout">
+                    <img src="img/layout.svg" alt="layout">
+                    <div class="flex">
+                        <a href="#">Назад</a>
+                        <button class="button_style" type="submit">Далее</button>
+                    </div>
+                </div>
+            </div>
+           </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://kit.fontawesome.com/b90cc502bb.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
 </body>
